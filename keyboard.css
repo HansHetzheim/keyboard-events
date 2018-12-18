@@ -1,0 +1,29 @@
+#character{
+  text-align: center;
+  margin-top: 120px;
+  border: 1px solid;
+}
+
+#up{
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+#down{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+#left{
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
+}
+#right{
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+}
+.highlight{
+  opacity: 0.2
+}
